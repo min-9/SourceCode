@@ -1,0 +1,59 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+table {
+  text-align: center;
+  font-size: 20px;
+}
+
+.index td {
+  padding: 10px 20px;
+}
+
+.body td {
+  padding: 10px 20px;
+  background-color: #F8F7F9
+}
+
+#testCanvas {
+  border: 1px soild lightblue;
+}
+
+#testCanvas2 {
+  border: 1px soild lightblue;
+}
+
+.Person_Data #row1 #col3,
+.Product_Chart #row7 #col2 {
+  background-color: #FFF799
+}
+
+.Product_Chart #row1 #col1 {
+  background-color: #BAC2E4
+}
+
+.Product_Chart #row2 #col1 {
+  background-color: #FDB5B5
+}
+
+.Product_Chart #row3 #col1 {
+  background-color: #F8D2F8
+}
+
+.Product_Chart #row4 #col1 {
+  background-color: #9EDCFD
+}
+
+.Product_Chart #row5 #col1 {
+  background-color: #DAFAD0
+}
+
+.Product_Chart #row6 #col1 {
+  background-color: #D7BFFF
+}
+
+.index td,
+.Product_Chart #row7 #col1 {
+  background-color: #EEF4EE
+}
