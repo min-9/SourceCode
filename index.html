@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://kmingu07315.github.io/SourceCode/style.css"
+    >
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    >
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&display=swap"
+    >
+    <script
+      src="https://kmingu07315.github.io/SourceCode/main.js"
+      defer
+    ></script>
+    <title>Chart</title>
+  </head>
+  <body onload="pageLoad();">
+    <div hidden>
+      <h1>카러플 랭겜 스쿼드</h1>
+      <table class="Person_Data" border="1">
+        <thead class="index">
+          <td>닉네임</td>
+          <td>라이센스</td>
+          <td>최고 티어</td>
+          <td>비고</td>
+        </thead>
+        <tbody class="body">
+          <tr id="row1">
+            <td id="col1">UIC_Heize</td>
+            <td id="col2" rowspan="2">L1</td>
+            <td id="col3" rowspan="4">레전드</td>
+            <td id="col4">고가 마스터</td>
+          </tr>
+          <tr id="row2">
+            <td id="col1">UIC_피카츄</td>
+            <td id="col4">버스기사 장인</td>
+          </tr>
+          <tr id="row3">
+            <td id="col1">UIC_배ㅉii</td>
+            <td id="col2" rowspan="2">L2</td>
+            <td id="col4">내가 이적한 이유</td>
+          </tr>
+          <tr id="row4">
+            <td id="col1">Dura</td>
+            <td id="col4">아직 이적 안 함</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+    </div>
+    <div>
+      <h1>Apple Collection</h1>
+      <table class="Product_Chart" border="1">
+        <thead class="index">
+          <td>Product name</td>
+          <td>Cost</td>
+          <td>Amount</td>
+          <td>Discount rate</td>
+          <td>Final cost</td>
+        </thead>
+        <tbody class="body">
+          <tr id="row1">
+            <td id="col1">Apple Magic Keyboard</td>
+            <td id="col2">135.56</td>
+            <td id="col3">1</td>
+            <td id="col4">0</td>
+            <td id="col5"></td>
+          </tr>
+          <tr id="row2">
+            <td id="col1">Apple Pencil 2nd Gen</td>
+            <td id="col2">149.12</td>
+            <td id="col3">1</td>
+            <td id="col4">0</td>
+            <td id="col5"></td>
+          </tr>
+          <tr id="row3">
+            <td id="col1">Apple Watch Series 3 Nike Edition</td>
+            <td id="col2">326.68</td>
+            <td id="col3">1</td>
+            <td id="col4">0</td>
+            <td id="col5"></td>
+          </tr>
+          <tr id="row4">
+            <td id="col1">Magic Keyboard (For 4th Gen & 12.9 Inch)</td>
+            <td id="col2">406.89</td>
+            <td id="col3">1</td>
+            <td id="col4">0</td>
+            <td id="col5"></td>
+          </tr>
+          <tr id="row5">
+            <td id="col1">iPad Pro 4th Gen (128GB)</td>
+            <td id="col2">1179.62</td>
+            <td id="col3">1</td>
+            <td id="col4">0</td>
+            <td id="col5"></td>
+          </tr>
+          <tr id="row6">
+            <td id="col1">MacBook Pro 2018 (512GB, 32GB)</td>
+            <td id="col2">3085.3</td>
+            <td id="col3">1</td>
+            <td id="col4">0</td>
+            <td id="col5"></td>
+          </tr>
+          <tr id="row7">
+            <td id="col1" colspan="4">Total</td>
+            <td id="col2"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+    </div>
+    <div>
+      <h1>Collection Chart</h1>
+      <canvas id="testCanvas" width="540" height="480">
+        Your browser does not support HTML5 Canvas. Please shift to a newer browser.
+      </canvas>
+      <canvas id="testCanva2" width="540" height="480">
+        Your browser does not support HTML5 Canvas. Please shift to a newer browser.
+      </canvas>
+    </div>
+  </body>
+</html>
