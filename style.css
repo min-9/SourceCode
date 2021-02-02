@@ -8,12 +8,17 @@ table {
 }
 
 canvas {
-  float: left;
-  display: inline-block;
+  grid-row: 2 / 3;
 }
 
-.test {
+.Product_Chart {
+  width: 850px;
+  grid-row: 2 / 3;
+}
+
+.Chart2 {
   display: grid;
+  width: 1600px;
 }
 
 .index td {
@@ -25,7 +30,7 @@ canvas {
   background-color: #F8F7F9
 }
 
-.testCanvas {
+#testCanvas {
   border: 1px soild lightblue;
 }
 

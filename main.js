@@ -5,48 +5,48 @@ function pageLoad() {
 
   ctx.fillStyle = "rgb(186, 194, 228)";
   ctx.beginPath();
-  ctx.moveTo(270, 240);
-  ctx.arc(270, 240, 200, -Math.PI/2, -46*Math.PI/100, false);
+  ctx.moveTo(329, 329);
+  ctx.arc(329, 329, 300, -Math.PI/2, -46*Math.PI/100, false);
   ctx.closePath();
   ctx.stroke();
   ctx.fill();
 
   ctx.fillStyle = "rgb(253, 181, 183)";
   ctx.beginPath();
-  ctx.moveTo(270, 240);
-  ctx.arc(270, 240, 200, -46*Math.PI/100, -40*Math.PI/100, false);
+  ctx.moveTo(329, 329);
+  ctx.arc(329, 329, 300, -46*Math.PI/100, -40*Math.PI/100, false);
   ctx.closePath();
   ctx.stroke();
   ctx.fill();
 
   ctx.fillStyle = "rgb(248, 210, 248)";
   ctx.beginPath();
-  ctx.moveTo(270, 240);
-  ctx.arc(270, 240, 200, -40*Math.PI/100, -28*Math.PI/100, false);
+  ctx.moveTo(329, 329);
+  ctx.arc(329, 329, 300, -40*Math.PI/100, -28*Math.PI/100, false);
   ctx.closePath();
   ctx.stroke();
   ctx.fill();
 
   ctx.fillStyle = "rgb(158, 220, 253)";
   ctx.beginPath();
-  ctx.moveTo(270, 240);
-  ctx.arc(270, 240, 200, -28*Math.PI/100, -12*Math.PI/100, false);
+  ctx.moveTo(329, 329);
+  ctx.arc(329, 329, 300, -28*Math.PI/100, -12*Math.PI/100, false);
   ctx.closePath();
   ctx.stroke();
   ctx.fill();
 
   ctx.fillStyle = "rgb(218, 250, 208)";
   ctx.beginPath();
-  ctx.moveTo(270, 240);
-  ctx.arc(270, 240, 200, -12*Math.PI/100, 34*Math.PI/100, false);
+  ctx.moveTo(329, 329);
+  ctx.arc(329, 329, 300, -12*Math.PI/100, 34*Math.PI/100, false);
   ctx.closePath();
   ctx.stroke();
   ctx.fill();
 
   ctx.fillStyle = "rgb(215, 191, 255)";
   ctx.beginPath();
-  ctx.moveTo(270, 240);
-  ctx.arc(270, 240, 200, 34*Math.PI/100, 150*Math.PI/100, false);
+  ctx.moveTo(329, 329);
+  ctx.arc(329, 329, 300, 34*Math.PI/100, 150*Math.PI/100, false);
   ctx.closePath();
   ctx.stroke();
   ctx.fill();
@@ -57,7 +57,7 @@ let c1 = document.querySelector(
 ).querySelector(
   '#row1'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent;
 
 let c2 = document.querySelector(
@@ -65,7 +65,7 @@ let c2 = document.querySelector(
 ).querySelector(
   '#row2'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent;
 
 let c3 = document.querySelector(
@@ -73,7 +73,7 @@ let c3 = document.querySelector(
 ).querySelector(
   '#row3'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent;
 
 let c4 = document.querySelector(
@@ -81,7 +81,7 @@ let c4 = document.querySelector(
 ).querySelector(
   '#row4'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent;
 
 let c5 = document.querySelector(
@@ -89,7 +89,7 @@ let c5 = document.querySelector(
 ).querySelector(
   '#row5'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent;
 
 let c6 = document.querySelector(
@@ -97,7 +97,7 @@ let c6 = document.querySelector(
 ).querySelector(
   '#row6'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent;
 
 let a1 = document.querySelector(
@@ -105,7 +105,7 @@ let a1 = document.querySelector(
 ).querySelector(
   '#row1'
 ).querySelector(
-  '#col3'
+  '#col4'
 ).textContent;
 
 let a2 = document.querySelector(
@@ -113,7 +113,7 @@ let a2 = document.querySelector(
 ).querySelector(
   '#row2'
 ).querySelector(
-  '#col3'
+  '#col4'
 ).textContent;
 
 let a3 = document.querySelector(
@@ -121,7 +121,7 @@ let a3 = document.querySelector(
 ).querySelector(
   '#row3'
 ).querySelector(
-  '#col3'
+  '#col4'
 ).textContent;
 
 let a4 = document.querySelector(
@@ -129,7 +129,7 @@ let a4 = document.querySelector(
 ).querySelector(
   '#row4'
 ).querySelector(
-  '#col3'
+  '#col4'
 ).textContent;
 
 let a5 = document.querySelector(
@@ -137,7 +137,7 @@ let a5 = document.querySelector(
 ).querySelector(
   '#row5'
 ).querySelector(
-  '#col3'
+  '#col4'
 ).textContent;
 
 let a6 = document.querySelector(
@@ -145,7 +145,7 @@ let a6 = document.querySelector(
 ).querySelector(
   '#row6'
 ).querySelector(
-  '#col3'
+  '#col4'
 ).textContent;
 
 let dr1 = document.querySelector(
@@ -153,7 +153,7 @@ let dr1 = document.querySelector(
 ).querySelector(
   '#row1'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent;
 
 let dr2 = document.querySelector(
@@ -161,7 +161,7 @@ let dr2 = document.querySelector(
 ).querySelector(
   '#row2'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent;
 
 let dr3 = document.querySelector(
@@ -169,7 +169,7 @@ let dr3 = document.querySelector(
 ).querySelector(
   '#row3'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent;
 
 let dr4 = document.querySelector(
@@ -177,7 +177,7 @@ let dr4 = document.querySelector(
 ).querySelector(
   '#row4'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent;
 
 let dr5 = document.querySelector(
@@ -185,7 +185,7 @@ let dr5 = document.querySelector(
 ).querySelector(
   '#row5'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent;
 
 let dr6 = document.querySelector(
@@ -193,7 +193,7 @@ let dr6 = document.querySelector(
 ).querySelector(
   '#row6'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent;
 
 let tc = document.querySelector(
@@ -204,7 +204,7 @@ let tc = document.querySelector(
   '#col2'
 );
 
-let tc1 = Number(
+let fc1 = Number(
   c1
 ) * Number(
   a1
@@ -216,7 +216,7 @@ let tc1 = Number(
   ) * 0.01
 );
 
-let tc2 = Number(
+let fc2 = Number(
   c2
 ) * Number(
   a2
@@ -228,7 +228,7 @@ let tc2 = Number(
   ) * 0.01
 );
 
-let tc3 = Number(
+let fc3 = Number(
   c3
 ) * Number(
   a3
@@ -240,7 +240,7 @@ let tc3 = Number(
   ) * 0.01
 );
 
-let tc4 = Number(
+let fc4 = Number(
   c4
 ) * Number(
   a4
@@ -252,7 +252,7 @@ let tc4 = Number(
   ) * 0.01
 );
 
-let tc5 = Number(
+let fc5 = Number(
   c5
 ) * Number(
   a5
@@ -264,7 +264,7 @@ let tc5 = Number(
   ) * 0.01
 );
 
-let tc6 = Number(
+let fc6 = Number(
   c6
 ) * Number(
   a6
@@ -276,12 +276,123 @@ let tc6 = Number(
   ) * 0.01
 );
 
+let tr = document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row7'
+).querySelector(
+  '#col3'
+);
+
+let ar1 = document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row1'
+).querySelector(
+  '#col7'
+).textContent;
+
+let ar2 = document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row2'
+).querySelector(
+  '#col7'
+).textContent;
+
+let ar3 = document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row3'
+).querySelector(
+  '#col7'
+).textContent;
+
+let ar4 = document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row4'
+).querySelector(
+  '#col7'
+).textContent;
+
+let ar5 = document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row5'
+).querySelector(
+  '#col7'
+).textContent;
+
+let ar6 = document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row6'
+).querySelector(
+  '#col7'
+).textContent;
+
+ar1 *= 0.01;
+ar2 *= 0.01;
+ar3 *= 0.01;
+ar4 *= 0.01;
+ar5 *= 0.01;
+ar6 *= 0.01;
+
 document.querySelector(
   '.Product_Chart'
 ).querySelector(
   '#row1'
 ).querySelector(
-  '#col2'
+  '#col7'
+).textContent = ar1
+
+document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row2'
+).querySelector(
+  '#col7'
+).textContent = ar2
+
+document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row3'
+).querySelector(
+  '#col7'
+).textContent = ar3
+
+document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row4'
+).querySelector(
+  '#col7'
+).textContent = ar4
+
+document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row5'
+).querySelector(
+  '#col7'
+).textContent = ar5
+
+document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row6'
+).querySelector(
+  '#col7'
+).textContent = ar6
+
+document.querySelector(
+  '.Product_Chart'
+).querySelector(
+  '#row1'
+).querySelector(
+  '#col3'
 ).textContent = "$" + c1
 
 document.querySelector(
@@ -289,7 +400,7 @@ document.querySelector(
 ).querySelector(
   '#row2'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent = "$" + c2
 
 document.querySelector(
@@ -297,7 +408,7 @@ document.querySelector(
 ).querySelector(
   '#row3'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent = "$" + c3
 
 document.querySelector(
@@ -305,7 +416,7 @@ document.querySelector(
 ).querySelector(
   '#row4'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent = "$" + c4
 
 document.querySelector(
@@ -313,7 +424,7 @@ document.querySelector(
 ).querySelector(
   '#row5'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent = "$" + c5
 
 document.querySelector(
@@ -321,7 +432,7 @@ document.querySelector(
 ).querySelector(
   '#row6'
 ).querySelector(
-  '#col2'
+  '#col3'
 ).textContent = "$" + c6
 
 document.querySelector(
@@ -329,7 +440,7 @@ document.querySelector(
 ).querySelector(
   '#row1'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent = dr1 + "%"
 
 document.querySelector(
@@ -337,7 +448,7 @@ document.querySelector(
 ).querySelector(
   '#row2'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent = dr2 + "%"
 
 document.querySelector(
@@ -345,7 +456,7 @@ document.querySelector(
 ).querySelector(
   '#row3'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent = dr3 + "%"
 
 document.querySelector(
@@ -353,7 +464,7 @@ document.querySelector(
 ).querySelector(
   '#row4'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent = dr4 + "%"
 
 document.querySelector(
@@ -361,7 +472,7 @@ document.querySelector(
 ).querySelector(
   '#row5'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent = dr5 + "%"
 
 document.querySelector(
@@ -369,7 +480,7 @@ document.querySelector(
 ).querySelector(
   '#row6'
 ).querySelector(
-  '#col4'
+  '#col5'
 ).textContent = dr6 + "%"
 
 document.querySelector(
@@ -377,53 +488,55 @@ document.querySelector(
 ).querySelector(
   '#row1'
 ).querySelector(
-  '#col5'
-).textContent = "$" + tc1
+  '#col6'
+).textContent = "$" + fc1
 
 document.querySelector(
   '.Product_Chart'
 ).querySelector(
   '#row2'
 ).querySelector(
-  '#col5'
-).textContent = "$" + tc2
+  '#col6'
+).textContent = "$" + fc2
 
 document.querySelector(
   '.Product_Chart'
 ).querySelector(
   '#row3'
 ).querySelector(
-  '#col5'
-).textContent = "$" + tc3
+  '#col6'
+).textContent = "$" + fc3
 
 document.querySelector(
   '.Product_Chart'
 ).querySelector(
   '#row4'
 ).querySelector(
-  '#col5'
-).textContent = "$" + tc4
+  '#col6'
+).textContent = "$" + fc4
 
 document.querySelector(
   '.Product_Chart'
 ).querySelector(
   '#row5'
 ).querySelector(
-  '#col5'
-).textContent = "$" + tc5
+  '#col6'
+).textContent = "$" + fc5
 
 document.querySelector(
   '.Product_Chart'
 ).querySelector(
   '#row6'
 ).querySelector(
-  '#col5'
-).textContent = "$" + tc6
+  '#col6'
+).textContent = "$" + fc6
 
 let sum = Math.round(
   (
-    tc1 + tc2 + tc3 + tc4 + tc5 + tc6
+    fc1 + fc2 + fc3 + fc4 + fc5 + fc6
   ) * 100000
 ) / 100000;
 
 tc.textContent = "$" + sum;
+
+tr.textContent = ar1 + ar2 + ar3 + ar4 + ar5 + ar6;
