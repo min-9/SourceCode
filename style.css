@@ -2,7 +2,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
+.Chart2 h1 {
+  /* width: 1600px; */
   text-align: center;
   font-size: 35px;
 }
@@ -21,7 +22,7 @@ canvas {
   grid-row: 2 / 3;
 }
 
-.Chart2 {
+.Main_Content {
   display: grid;
   width: 1600px;
 }
