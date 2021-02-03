@@ -1,55 +1,24 @@
+function draw(ctx, r, g, b, s, f) {
+  ctx.fillStyle = `rgb(${r}, ${g}, ${b})`;
+  ctx.beginPath();
+  ctx.moveTo(329, 329);
+  ctx.arc(329, 329, 300, s, f, false);
+  ctx.closePath();
+  ctx.stroke();
+  ctx.fill();
+}
+
 function pageLoad() {
   let canvas = document.getElementById('testCanvas');
 
   let ctx = canvas.getContext('2d');
 
-  ctx.fillStyle = "rgb(186, 194, 228)";
-  ctx.beginPath();
-  ctx.moveTo(329, 329);
-  ctx.arc(329, 329, 300, -Math.PI/2, -46*Math.PI/100, false);
-  ctx.closePath();
-  ctx.stroke();
-  ctx.fill();
-
-  ctx.fillStyle = "rgb(253, 181, 183)";
-  ctx.beginPath();
-  ctx.moveTo(329, 329);
-  ctx.arc(329, 329, 300, -46*Math.PI/100, -40*Math.PI/100, false);
-  ctx.closePath();
-  ctx.stroke();
-  ctx.fill();
-
-  ctx.fillStyle = "rgb(248, 210, 248)";
-  ctx.beginPath();
-  ctx.moveTo(329, 329);
-  ctx.arc(329, 329, 300, -40*Math.PI/100, -28*Math.PI/100, false);
-  ctx.closePath();
-  ctx.stroke();
-  ctx.fill();
-
-  ctx.fillStyle = "rgb(158, 220, 253)";
-  ctx.beginPath();
-  ctx.moveTo(329, 329);
-  ctx.arc(329, 329, 300, -28*Math.PI/100, -12*Math.PI/100, false);
-  ctx.closePath();
-  ctx.stroke();
-  ctx.fill();
-
-  ctx.fillStyle = "rgb(218, 250, 208)";
-  ctx.beginPath();
-  ctx.moveTo(329, 329);
-  ctx.arc(329, 329, 300, -12*Math.PI/100, 34*Math.PI/100, false);
-  ctx.closePath();
-  ctx.stroke();
-  ctx.fill();
-
-  ctx.fillStyle = "rgb(215, 191, 255)";
-  ctx.beginPath();
-  ctx.moveTo(329, 329);
-  ctx.arc(329, 329, 300, 34*Math.PI/100, 150*Math.PI/100, false);
-  ctx.closePath();
-  ctx.stroke();
-  ctx.fill();
+  draw(ctx, 186, 194, 228, -Math.PI/2, -46*Math.PI/100);
+  draw(ctx, 253, 181, 183, -46*Math.PI/100, -40*Math.PI/100);
+  draw(ctx, 248, 210, 248, -40*Math.PI/100, -28*Math.PI/100);
+  draw(ctx, 158, 220, 253, -28*Math.PI/100, -12*Math.PI/100);
+  draw(ctx, 218, 250, 208, -12*Math.PI/100, 34*Math.PI/100);
+  draw(ctx, 215, 191, 255, 34*Math.PI/100, 150*Math.PI/100);
 }
 
 let c1 = document.querySelector(
